@@ -28,9 +28,9 @@ end
 
 function onSelected(mouse)
 
-    mouse.KeyDown:connect(function(e) if c:lower()=="e"then onButton1Down(mouse)end end)
+    mouse.KeyDown:connect(function(e) if e:lower()=="e"then onButton1Down(mouse)end end)
 
-    mouse.KeyUp:connect(function(e) if c:lower()=="e"then onButton1Up(mouse)end end)
+    mouse.KeyUp:connect(function(e) if e:lower()=="e"then onButton1Up(mouse)end end)
 
 end
 
